@@ -23,6 +23,10 @@
     "dir": "node src/consoleDir.js",
     "error": "node src/consoleError.js",
     "group": "node src/consoleGroup.js",
-    "info": "node src/consoleInfo.js"
+    "info": "node src/consoleInfo.js",
+    "table": "node src/consoleTable.js",
+    "time": "node src/consoleTime.js",
+    "trace": "node src/consoleTrace.js",
+    "warn": "node src/consoleWarn.js"
   }
 }
