@@ -1,0 +1,28 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jdmedlock/sandbox#readme",
+  "bugs": {
+    "url": "https://github.com/jdmedlock/sandbox/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmedlock/sandbox.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "consolelog.js",
+  "scripts": {
+    "start": "node src/consolelog.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "assert": "node src/consoleAssert.js",
+    "count": "node src/consoleCount.js",
+    "debug": "node src/consoleDebug.js",
+    "dir": "node src/consoleDir.js",
+    "error": "node src/consoleError.js",
+    "group": "node src/consoleGroup.js",
+    "info": "node src/consoleInfo.js"
+  }
+}
