@@ -1,8 +1,8 @@
 // console.trace
 function foo() {
-    function bar() {
-      console.trace()
-    }
-    bar()
+  function bar() {
+    console.trace()
   }
-  foo()
+  bar()
+}
+foo()
