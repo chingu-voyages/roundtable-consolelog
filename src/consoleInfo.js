@@ -1,2 +1,3 @@
 // console.info
-console.info('Did you know Andres likes Golang?')
+const debugMode = false
+console.info(`Debug mode: ${ debugMode }`)
