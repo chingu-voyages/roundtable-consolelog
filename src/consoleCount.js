@@ -7,4 +7,7 @@ function greet(user) {
 greet(`Andres`)
 greet(`Dinesh`)
 greet('Andres')
+/*
 console.count('Andres')
+console.count('Dinesh')
+*/
