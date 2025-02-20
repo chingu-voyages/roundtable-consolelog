@@ -6,4 +6,4 @@ console.dir(`person:`, person) // dir only accepts a single parameter
 console.log(`\n\nperson: `, person)
 console.log(`person: ${ person }`)
 console.log(`person: ${ JSON.parse(JSON.stringify(person)) }`) // What???
-console.log(`person: `, JSON.parse(JSON.stringify(person)))
+console.info(`person: `, JSON.parse(JSON.stringify(person)))
